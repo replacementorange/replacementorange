@@ -1,3 +1,1 @@
-## Hello World! :rat:
-
-Yeah, that's about all...
+![Hello world text with jumping rat.](hello.svg)

@@ -1,0 +1,48 @@
+<svg fill="none" viewBox="0 0 400 200" width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background-color: black;
+
+          width: 100%;
+          height: 200px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+          font-family: Arial, Verdana, Tahoma, sans-serif, 'Times New Roman', Georgia, Garamond serif;
+        }
+
+        @keyframes rat  {
+          0%    {transform: translateY(0)}
+          10%   {transform: rotate(20.0deg)}
+          20%   {transform: translateY(-15px)}
+          30%   {transform: rotate(20.0deg)}
+          40%   {transform: rotate(-5.0deg)}
+          50%   {transform: rotate(10.0deg)}
+          60%   {transform: rotate(0.0deg)}
+          100%  {transform: translateY(0)}
+        }
+
+        .rat {
+          animation: rat 2.0s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+
+        @media (prefers-reduced-motion) {
+          .rat {
+            animation: none;
+          }
+        }
+      </style>
+
+      <div class="container">
+        <h1>Hello World! <div class="rat">🐀</div></h1>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
